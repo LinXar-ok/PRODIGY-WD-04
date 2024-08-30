@@ -19,9 +19,9 @@ export const HeroParallax = ({
     thumbnail: string;
   }[];
 }) => {
-  const firstRow = products.slice(0, 5);
-  const secondRow = products.slice(5, 10);
-  const thirdRow = products.slice(10, 15);
+  const firstRow = products.slice(0, 4);
+  const secondRow = products.slice(4, 8);
+  const thirdRow = products.slice(8, 12);
   const ref = React.useRef(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -57,7 +57,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="min-h-[200vh] md:min-h-[220vh]  overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[220vh] pb-80  overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -103,14 +103,16 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
+    <div className="max-w-7xl relative mx-auto py-24 md:py-20 px-4 w-full  left-0 top-0">
       <h1 className="text-4xl md:text-7xl font-bold dark:text-white">
-        Latest Projects <br /> development studio
+        Latest Projects <br /> Explore My Portfolio
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-        We build beautiful products with the latest technologies and frameworks.
-        We are a team of passionate developers and designers that love to build
-        amazing products.
+        Explore my diverse portfolio of projects. Each project reflects my
+        commitment to delivering high-quality solutions tailored to real-world
+        needs. From dynamic web applications to intricate software systems,
+        these works showcase my ability to tackle complex challenges and create
+        impactful results.
       </p>
     </div>
   );

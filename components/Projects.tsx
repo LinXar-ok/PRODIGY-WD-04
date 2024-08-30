@@ -3,100 +3,92 @@ import React from "react";
 import { HeroParallax } from "./ui/HeroParallax";
 
 export function Projects() {
-  return <HeroParallax products={products} />;
+  return (
+    <div id="projects">
+      <HeroParallax products={products} />
+    </div>
+  );
 }
 export const products = [
   {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
+    title: "HooBank Project (github link)",
+    link: "https://github.com/LinXar-ok/payment-react",
+    thumbnail: "/HoBank.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+    title: "Gourmet LInX",
+    link: "https://gourmet-linx.vercel.app/",
+    thumbnail: "/gourmet.png",
   },
   {
-    title: "Rogue",
-    link: "https://userogue.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/rogue.png",
+    title: "Sentinel Logistics",
+    link: "https://sentinel-logistics.vercel.app/",
+    thumbnail: "/sentinel.png",
   },
 
   {
-    title: "Editorially",
-    link: "https://editorially.org",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editorially.png",
+    title: "Full Stack E-Commerce Project",
+    link: "https://github.com/LinXar-ok/ecommerce_backend-project",
+    thumbnail: "/iPad Mini (portrait).png",
   },
   {
-    title: "Editrix AI",
-    link: "https://editrix.ai",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/editrix.png",
-  },
-  {
-    title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/pixelperfect.png",
+    title: "LinXar Labs",
+    link: "https://linxar-labs.vercel.app/",
+    thumbnail: "/linXarLabs.png",
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
-  },
-  {
-    title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/aceternityui.png",
-  },
-  {
-    title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
-  },
-  {
-    title: "SmartBridge",
-    link: "https://smartbridgetech.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
-  },
-  {
-    title: "Renderwork Studio",
-    link: "https://renderwork.studio",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
+    title: "UX Designer Page (github link)",
+    link: "https://github.com/LinXar-ok/PRODIGY-WD-01",
+    thumbnail: "/landinPage.png",
   },
 
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+    title: "Survey Form",
+    link: "https://freecodecamp.org/certification/LinXar/responsive-web-design",
+    thumbnail: "/proj01.png",
   },
   {
-    title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png",
+    title: "Product Landing Page",
+    link: "https://freecodecamp.org/certification/LinXar/responsive-web-design",
+    thumbnail: "/proj03.png",
+  },
+  // {
+  //   title: "Tailwind Master Kit",
+  //   link: "https://tailwindmasterkit.com",
+  //   thumbnail:
+  //     "https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png",
+  // },
+  {
+    title: "Tribute Page",
+    link: "https://freecodecamp.org/certification/LinXar/responsive-web-design",
+    thumbnail: "/pro02.png",
+  },
+
+  {
+    title: "Stopwatch Project(github link)",
+    link: "https://github.com/LinXar-ok/PRODIGY-WD-02",
+    thumbnail: "/stopwatch.png",
+  },
+
+  {
+    title: "Tic-Tac-Toe Game (github link)",
+    link: "https://github.com/LinXar-ok/PRODIGY-WD-03",
+    thumbnail: "/Tic-Tac-Toe.png",
   },
   {
-    title: "Invoker Labs",
-    link: "https://invoker.lol",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/invoker.png",
+    title: "My Portfolio",
+    link: "https://github.com/LinXar-ok/PRODIGY-WD-04",
+    thumbnail: "/portfolio-sr.png",
   },
   {
-    title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
-    thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png",
+    title: "Full Stack E-Commerce Project",
+    link: "https://github.com/LinXar-ok/ecommerce_backend-project",
+    thumbnail: "/iPhone 15 Mockup (Community).png",
+  },
+  {
+    title: "Full Stack E-Commerce Project",
+    link: "https://github.com/LinXar-ok/ecommerce_backend-project",
+    thumbnail: "/laptop.png",
   },
 ];

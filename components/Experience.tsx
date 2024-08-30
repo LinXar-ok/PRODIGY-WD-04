@@ -86,7 +86,7 @@ const content = [
 ];
 export function Experience() {
   return (
-    <div className="py-20">
+    <div id="experiences" className="py-20">
       <StickyScroll content={content} />
     </div>
   );
