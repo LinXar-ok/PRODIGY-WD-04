@@ -15,7 +15,13 @@ const content = [
     ],
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Collaborative Editing
+        <Image
+          src="/prodigy_infotech_logo.jpeg"
+          width={50}
+          height={50}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },
@@ -30,7 +36,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="/linear.webp"
+          src="/uopeople.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -51,7 +57,7 @@ const content = [
     ],
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Version control
+        Self-Directed IT Support Projects
       </div>
     ),
   },
@@ -65,7 +71,7 @@ const content = [
     ],
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Running out of content
+        Google IT Support Professional
       </div>
     ),
   },
@@ -78,8 +84,14 @@ const content = [
       "Mobile-First Development: Developed proficiency in mobile-first design, ensuring that web applications are both visually appealing and fully functional across all platforms.",
     ],
     content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-        Running out of content
+      <div className="h-full w-full bg-black flex items-center justify-center text-white">
+        <Image
+          src="/freecodecamp_logo.png"
+          width={300}
+          height={300}
+          className="h-full w-full object-cover"
+          alt="linear board demo"
+        />
       </div>
     ),
   },

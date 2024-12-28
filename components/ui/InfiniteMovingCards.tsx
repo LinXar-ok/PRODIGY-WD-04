@@ -101,7 +101,12 @@ export const InfiniteMovingCards = ({
               ></div>
 
               <div>
-                <Image src={item.image} alt="logo" width={150} height={150} />
+                <Image
+                  src={item.image}
+                  alt="tec-logo"
+                  width={150}
+                  height={150}
+                />
               </div>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">

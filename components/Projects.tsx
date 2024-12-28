@@ -1,11 +1,37 @@
 "use client";
 import React from "react";
-import { HeroParallax } from "./ui/HeroParallax";
+import { DirectionAwareHover } from "./ui/DirectionAwareHover";
 
 export function Projects() {
   return (
-    <div id="projects">
-      <HeroParallax products={products} />
+    <div id="project">
+      <div className="max-w-7xl relative mx-auto py-24 md:py-20 px-4 w-full  left-0 top-0">
+        <h1 className="text-4xl md:text-6xl font-bold dark:text-white">
+          Latest Projects <br /> Explore My Portfolio
+        </h1>
+        <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+          Explore my diverse portfolio of projects. Each project reflects my
+          commitment to delivering high-quality solutions tailored to real-world
+          needs. From dynamic web applications to intricate software systems,
+          these works showcase my ability to tackle complex challenges and
+          create impactful results.
+        </p>
+      </div>
+
+      <div className="h-auto relative flex flex-wrap items-center justify-center gap-6 mx-12">
+        {products.map((product, index) => (
+          <div
+            key={index}
+            className="relative flex items-center justify-center rounded-lg overflow-hidden shadow-lg"
+          >
+            <a href={product.link} target="_blank">
+              <DirectionAwareHover imageUrl={product.thumbnail}>
+                <p className="font-bold text-xl text-white">{product.title}</p>
+              </DirectionAwareHover>
+            </a>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

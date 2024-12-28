@@ -15,9 +15,9 @@ export default function Navbar() {
 
     window.addEventListener("scroll", handleScroll);
 
-    const sectionIds = ["home", "about", "projects", "experiences", "contact"];
+    const sectionIds = ["home", "about", "project", "experiences", "contact"];
     const options = {
-      threshold: 0.5,
+      threshold: 0.3,
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -93,7 +93,7 @@ export default function Navbar() {
               <Link
                 href="#projects"
                 className={`nav-link px-3 py-2 rounded-md text-sm font-medium text-cool-gray hover:text-electric-blue ${isActive(
-                  "projects"
+                  "project"
                 )}`}
               >
                 Projects
